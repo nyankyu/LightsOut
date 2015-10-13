@@ -15,25 +15,27 @@ public class Board extends PercentRelativeLayout {
 
     public Board(Context context) {
         super(context);
-        init(null, 0);
+        init(context);
     }
 
     public Board(Context context, AttributeSet attrs) {
         super(context, attrs);
-        init(attrs, 0);
+        init(context);
     }
 
     public Board(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-        init(attrs, defStyle);
+        init(context);
     }
 
-    private void init(AttributeSet attrs, int defStyle) {
+    private void init(Context context){
+        View.inflate(context, R.layout.board, this);
     }
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         setMeasuredDimension(getDefaultSize(getSuggestedMinimumWidth(), widthMeasureSpec),
                 getDefaultSize(getSuggestedMinimumWidth(), widthMeasureSpec));
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
     }
 }

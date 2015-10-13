@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- row 1 -->
+    <jp.gr.java_conf.kobitokaba.lightsout.Cell
+        android:id="@+id/cell_11"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        app:layout_widthPercent="16%"
+        app:layout_marginPercent="2%"/>
+
+    <jp.gr.java_conf.kobitokaba.lightsout.Cell
+        android:id="@+id/cell_12"
+        android:layout_toRightOf="@id/cell_11"
+        app:layout_widthPercent="16%"
+        app:layout_marginPercent="2%"/>
+
+    <jp.gr.java_conf.kobitokaba.lightsout.Cell
+        android:id="@+id/cell_13"
+        android:layout_toRightOf="@id/cell_12"
+        app:layout_widthPercent="16%"
+        app:layout_marginPercent="2%"/>
+
+    <jp.gr.java_conf.kobitokaba.lightsout.Cell
+        android:id="@+id/cell_14"
+        android:layout_toRightOf="@id/cell_13"
+        app:layout_widthPercent="16%"
+        app:layout_marginPercent="2%"/>
+
+    <jp.gr.java_conf.kobitokaba.lightsout.Cell
+        android:id="@+id/cell_15"
+        android:layout_toRightOf="@id/cell_14"
+        app:layout_widthPercent="16%"
+        app:layout_marginPercent="2%"/>
+
+    <!-- row 2 -->
+    <jp.gr.java_conf.kobitokaba.lightsout.Cell
+        android:id="@+id/cell_21"
+        android:layout_below="@id/cell_11"
+        android:layout_alignParentLeft="true"
+        app:layout_widthPercent="16%"
+        app:layout_marginPercent="2%"/>
+
+    <jp.gr.java_conf.kobitokaba.lightsout.Cell
+        android:id="@+id/cell_22"
+        android:layout_below="@id/cell_11"
+        android:layout_toRightOf="@id/cell_21"
+        app:layout_widthPercent="16%"
+        app:layout_marginPercent="2%"/>
+
+    <jp.gr.java_conf.kobitokaba.lightsout.Cell
+        android:id="@+id/cell_23"
+        android:layout_below="@id/cell_11"
+        android:layout_toRightOf="@id/cell_22"
+        app:layout_widthPercent="16%"
+        app:layout_marginPercent="2%"/>
+
+    <jp.gr.java_conf.kobitokaba.lightsout.Cell
+        android:id="@+id/cell_24"
+        android:layout_below="@id/cell_11"
+        android:layout_toRightOf="@id/cell_23"
+        app:layout_widthPercent="16%"
+        app:layout_marginPercent="2%"/>
+
+    <jp.gr.java_conf.kobitokaba.lightsout.Cell
+        android:id="@+id/cell_25"
+        android:layout_below="@id/cell_11"
+        android:layout_toRightOf="@id/cell_24"
+        app:layout_widthPercent="16%"
+        app:layout_marginPercent="2%"/>
+</merge>
